@@ -13,9 +13,18 @@ let person = {
 }
 
 //Dot notation
-person.name = "Marco"
-console.log(person.name)
+// person.name = "Marco"
+// console.log(person.name)
 
 //Bracket notation
-person['name']= 'Luca'
-console.log(person.name)
+// person['name'] = 'Luca'
+// console.log(person.name)
+
+
+//Functions
+function greet(){
+    console.log('Hello ' + person.name +' your age is ' + person.age)
+}
+
+greet(person.name, person.age)
+
