@@ -11,10 +11,11 @@ let person = {
     name: 'Mario',
     age: 25
 }
-person.name = "Marco"
 
+//Dot notation
+person.name = "Marco"
 console.log(person.name)
 
+//Bracket notation
 person['name']= 'Luca'
-
 console.log(person.name)
