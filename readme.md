@@ -1,0 +1,1 @@
+#### In this folder im trying to replicate different JS projects and simple applications.
